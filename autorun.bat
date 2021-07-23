@@ -6,4 +6,3 @@ echo "%fullstamp%" >> "%YYYY%.txt"
 git add .
 git commit -m "bootlog update"
 git push
-pause
