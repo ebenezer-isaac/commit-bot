@@ -3,5 +3,5 @@ set "YYYY=%dt:~0,4%" & set "MM=%dt:~4,2%" & set "DD=%dt:~6,2%" & set "HH=%dt:~8,
 set fullstamp=%DD%/%MM%/%YYYY% %HH%:%Min%:%Sec%
 echo "%fullstamp%" >> "%YYYY%.txt"
 git add .
-git commit -m "bootlog update"
+git commit --date="1 day ago" -m "fixing timeline" 
 git push
