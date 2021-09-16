@@ -5,3 +5,4 @@ echo "%fullstamp%" >> "%YYYY%.txt"
 git add .
 git commit -m "bootlog update"
 git push
+start chrome --new-window "https://stackoverflow.com/users/11380610/ebenezer-isaac"
